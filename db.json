@@ -1,0 +1,146 @@
+{
+  "menu": [
+    {
+      "id": 1,
+      "name": "Quarter Bull® with Cheese",
+      "src": "https://www.mcdonalds.com/content/dam/usa/nfl/nutrition/items/regular/desktop/t-mcdonalds-Quarter-Pounder-with-Cheese.jpg",
+      "composition": [
+        "Quarter Pound Bun",
+        "Mustard",
+        "Ketchup",
+        "Pickle Slices",
+        "Onions",
+        "Pasteurized Process American Cheese",
+        "Quarter Pound 100% Beef Patty*",
+        "Pasteurized Process American Cheese"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Double Quarter Bull® with Cheese",
+      "src": "https://www.mcdonalds.com/content/dam/usa/nfl/nutrition/items/regular/desktop/t-mcdonalds-Double-Quarter-Pounder-with-Cheese.jpg",
+      "composition": [
+        "Quarter Pound Bun",
+        "Mustard",
+        "Ketchup",
+        "Pickle Slices",
+        "Onions",
+        "Pasteurized Process American Cheese",
+        "Quarter Pound 100% Beef Patty*",
+        "Pasteurized Process American Cheese",
+        "Quarter Pound 100% Beef Patty*"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Big Bull®",
+      "src": "https://www.mcdonalds.com/content/dam/usa/nfl/nutrition/items/regular/desktop/t-mcdonalds-Big-Mac.jpg",
+      "composition": [
+        "Big Bull Bun",
+        "Onions",
+        "100% Beef Patty",
+        "Pickle Slices",
+        "Shredded Lettuce",
+        "Big Mac Sauce",
+        "Onions",
+        "100% Beef Patty",
+        "Pasteurized Process American Cheese",
+        "Shredded Lettuce",
+        "Big Mac Sauce"
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Quarter Bull® with Cheese Bacon",
+      "src": "https://www.mcdonalds.com/content/dam/usa/nfl/nutrition/items/regular/desktop/t-mcdonalds-qpc-bacon.jpg",
+      "composition": [
+        "Quarter Pound Bun",
+        "Mustard",
+        "Ketchup",
+        "Pickle Slices",
+        "Onions",
+        "Thick Cut Applewood Smoked Bacon",
+        "Pasteurized Process American Cheese",
+        "Quarter Pound 100% Beef Patty*",
+        "Pasteurized Process American Cheese"
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Bull® Burger",
+      "src": "https://www.mcdonalds.com/content/dam/usa/nfl/nutrition/items/regular/desktop/t-mcdonalds-Hamburger.jpg",
+      "composition": [
+        "Regular Bun",
+        "100% Beef Patty",
+        "Mustard",
+        "Ketchup",
+        "Pickle Slices",
+        "Onions"
+      ]
+    }
+  ],
+  "components": [
+    {
+      "name": "Big Bull Bun",
+      "src": "https://www.mcdonalds.com/content/dam/usa/nfl/nutrition/ingredients/regular/big_mac_bun.png"
+    },
+    {
+      "name": "Quarter Pound Bun",
+      "src": "https://www.mcdonalds.com/content/dam/usa/nfl/nutrition/ingredients/regular/quarter_pounder_bun.png"
+    },
+    {
+      "name": "Regular Bun",
+      "src": "https://www.mcdonalds.com/content/dam/usa/nfl/nutrition/ingredients/regular/regular_bun.png"
+    },
+    {
+      "name": "Pasteurized Process American Cheese",
+      "src": "https://www.mcdonalds.com/content/dam/usa/nfl/nutrition/ingredients/regular/ingredient_american_cheese_180x180.png"
+    },
+    {
+      "name": "100% Beef Patty",
+      "src": "https://www.mcdonalds.com/content/dam/usa/nfl/nutrition/ingredients/regular/10_1_patty.png"
+    },
+    {
+      "name": "Quarter Pound 100% Beef Patty",
+      "src": "https://www.mcdonalds.com/content/dam/usa/nfl/nutrition/ingredients/regular/4_1_patty.png"
+    },
+    {
+      "name": "Thick Cut Applewood Smoked Bacon",
+      "src": "https://www.mcdonalds.com/content/dam/usa/nfl/nutrition/ingredients/regular/applewood_bacon.png"
+    },
+    {
+      "name": "Mustard",
+      "src": "https://www.mcdonalds.com/content/dam/usa/nfl/nutrition/ingredients/regular/mustard.png"
+    },
+    {
+      "name": "Ketchup",
+      "src": "https://www.mcdonalds.com/content/dam/usa/nfl/nutrition/ingredients/regular/ketchup.png"
+    },
+    {
+      "name": "Pickle Slices",
+      "src": "https://www.mcdonalds.com/content/dam/usa/nfl/nutrition/ingredients/regular/pickles.png"
+    },
+    {
+      "name": "Onions",
+      "src": "https://www.mcdonalds.com/content/dam/usa/nfl/nutrition/ingredients/regular/reconstituted_onions.png"
+    },
+    {
+      "name": "Shredded Lettuce",
+      "src": "https://www.mcdonalds.com/content/dam/usa/nfl/nutrition/ingredients/regular/shredded_lettuce.png"
+    },
+    {
+      "name": "Big Mac Sauce",
+      "src": "https://www.mcdonalds.com/content/dam/usa/nfl/nutrition/ingredients/regular/big_mac_sauce.png"
+    }
+  ],
+  "currentOrder": [
+    {
+      "name": "Onions",
+      "src": "https://www.mcdonalds.com/content/dam/usa/nfl/nutrition/ingredients/regular/reconstituted_onions.png"
+    },
+    {
+      "name": "100% Beef Patty",
+      "src": "https://www.mcdonalds.com/content/dam/usa/nfl/nutrition/ingredients/regular/10_1_patty.png"
+    }
+  ]
+}
