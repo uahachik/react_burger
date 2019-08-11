@@ -5,6 +5,7 @@
   "homepage": "https://uahachik.github.io/react_burger",
   "dependencies": {
     "axios": "^0.19.0",
+    "gh-pages": "^2.1.1",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-router-dom": "^5.0.1",
@@ -12,6 +13,7 @@
     "uuid": "^3.3.2"
   },
   "scripts": {
+    "deploy": "npm run build&&gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
