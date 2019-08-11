@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/react_burger/static/css/main.2cce8147.chunk.css",
+    "main.js": "/react_burger/static/js/main.664bbabe.chunk.js",
+    "main.js.map": "/react_burger/static/js/main.664bbabe.chunk.js.map",
+    "runtime~main.js": "/react_burger/static/js/runtime~main.44df9e8f.js",
+    "runtime~main.js.map": "/react_burger/static/js/runtime~main.44df9e8f.js.map",
+    "static/js/2.fd35ecd8.chunk.js": "/react_burger/static/js/2.fd35ecd8.chunk.js",
+    "static/js/2.fd35ecd8.chunk.js.map": "/react_burger/static/js/2.fd35ecd8.chunk.js.map",
+    "index.html": "/react_burger/index.html",
+    "precache-manifest.e49218fb60a3d80fbeb085121f559f72.js": "/react_burger/precache-manifest.e49218fb60a3d80fbeb085121f559f72.js",
+    "service-worker.js": "/react_burger/service-worker.js",
+    "static/css/main.2cce8147.chunk.css.map": "/react_burger/static/css/main.2cce8147.chunk.css.map"
+  }
+}
