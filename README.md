@@ -9,3 +9,6 @@ tasty...) и вывести их в виде плитки.
 финиш.
 После клика на финиш мы видим финальный экран с информацией про наш
 заказ.
+
+not responsible design, without appropriate styles
+https://uahachik.github.io/react_burger/#/constructor/3
