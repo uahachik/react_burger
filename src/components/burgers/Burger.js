@@ -8,7 +8,7 @@ function Burger(props) {
   const { id, name } = props.menu;
   return (
     <div className="d-inline-flex m-4">
-      <Link to={`/constructor/${id}`}>
+      <Link to={`constructor/${id}`}>
         <button>
           <div>{name}</div>
           <Image attribute={props.menu} style={style} />
