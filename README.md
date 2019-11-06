@@ -10,5 +10,4 @@ tasty...) и вывести их в виде плитки.
 После клика на финиш мы видим финальный экран с информацией про наш
 заказ.
 
-not responsible design, without appropriate styles
-https://uahachik.github.io/react_burger/#/constructor/3
+not responsible design, without appropriate styles pure-fjord-41080.herokuapp.com
