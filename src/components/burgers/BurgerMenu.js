@@ -12,7 +12,7 @@ export default class BurgerMenu extends Component {
   }
 
   componentDidMount() {
-    fetch('/menu')
+    fetch('http://localhost:5000/menu')
       .then(response => response.json())
       .then(data =>
         this.setState({
