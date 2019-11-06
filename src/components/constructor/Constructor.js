@@ -23,14 +23,14 @@ export default class Constructor extends Component {
   async componentDidMount() {
     const { id } = this.props.match.params;
 
-    const menu = await axios.get(`http://localhost:3000/menu/${id}`);
+    const menu = await axios.get(`/menu/${id}`);
     this.setState({
       name: menu.data.name,
       src: menu.data.src,
       composition: menu.data.composition,
       isLoading: false
     });
-    const components = await axios.get('http://localhost:3000/components');
+    const components = await axios.get('/components');
     menu.data.composition.forEach(item => {
       components.data.forEach(component => {
         if (component.name === item) {
