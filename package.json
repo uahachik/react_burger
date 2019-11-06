@@ -2,7 +2,7 @@
   "name": "react-burger",
   "version": "1.0.0",
   "description": "Simple React app with Heroku json server",
-  "homepage": "https://pure-fjord-41080.herokuapp.com",
+  "homepage": "https://react-bull-burger.herokuapp.com",
   "main": "server.js",
   "private": true,
   "scripts": {
