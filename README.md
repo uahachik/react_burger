@@ -10,4 +10,4 @@ tasty...) и вывести их в виде плитки.
 После клика на финиш мы видим финальный экран с информацией про наш
 заказ.
 
-not responsible design, without appropriate styles https://pure-fjord-41080.herokuapp.com
+not responsible design, without appropriate styles https://react-bull-burger.herokuapp.com
