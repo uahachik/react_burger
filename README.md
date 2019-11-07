@@ -1,4 +1,4 @@
-TASK
+﻿TASK
 
 Создать страницу создания Бургера (по-типу McDonalds) с помощью React JS
 Используя библиотеку https://github.com/typicode/json-server создать endpoint с
