@@ -10,11 +10,13 @@
     "server": "nodemon server",
     "client": "npm start --prefix client",
     "dev": "concurrently \"npm run server\" \"npm run client\"",
-    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix client && npm run build --prefix client"
+    "heroku-postbuild": "npm install --prefix client && npm run build --prefix client"
   },
   "author": "Roman Kotenko",
   "license": "ISC",
-  "dependencies": {},
+  "dependencies": {
+    "json-server": "^0.15.1"
+  },
   "devDependencies": {
     "concurrently": "^4.1.1",
     "nodemon": "^1.19.1"
