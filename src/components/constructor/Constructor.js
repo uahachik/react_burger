@@ -24,7 +24,7 @@ export default class Constructor extends Component {
     const { id } = this.props.match.params;
 
     const menu = await axios.get(
-      `https://react-bull-burger.herokuapp.com/menu/${id}`
+      `https://react-json-server.herokuapp.com/menu/${id}`
     );
     this.setState({
       name: menu.data.name,
@@ -33,7 +33,7 @@ export default class Constructor extends Component {
       isLoading: false
     });
     const components = await axios.get(
-      'https://react-bull-burger.herokuapp.com/components'
+      'https://react-json-server.herokuapp.com/components'
     );
     menu.data.composition.forEach(item => {
       components.data.forEach(component => {
