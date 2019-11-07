@@ -6,17 +6,17 @@ const middlewares = jsonServer.defaults();
 server.use(middlewares);
 server.use(router);
 
-// Serve static assets in prodaction
-if (process.env.NODE_ENV === 'production') {
-  // Set static folder // set that index.html inside client/build to be a static file
-  // so we need set build folder as a folder
-  server.use(express.static('client/build'));
+// // Serve static assets in production
+// if (process.env.NODE_ENV === 'production') {
+//   // Set static folder // set that index.html inside client/build to be a static file
+//   // so we need set build folder as a folder
+//   server.use(express.static('client/build'));
 
-  // serve index.html
-  server.get('*', (req, res) => {
-    res.sendFile(path.resolve(__dirname, 'client', 'build', 'index.html'));
-  });
-}
+//   // serve index.html
+//   server.get('*', (req, res) => {
+//     res.sendFile(path.resolve(__dirname, 'client', 'build', 'index.html'));
+//   });
+// }
 
 const PORT = process.env.PORT || 5000;
 
