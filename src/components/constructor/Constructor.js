@@ -23,9 +23,7 @@ export default class Constructor extends Component {
   async componentDidMount() {
     const { id } = this.props.match.params;
 
-    const menu = await axios.get(
-      `https://bull-burger-json-server.herokuapp.com/menu/${id}`
-    );
+    const menu = await axios.get(process.env.REACT_APP_URL + `/menu/${id}`);
     this.setState({
       name: menu.data.name,
       src: menu.data.src,
@@ -33,7 +31,7 @@ export default class Constructor extends Component {
       isLoading: false,
     });
     const components = await axios.get(
-      'https://bull-burger-json-server.herokuapp.com/components'
+      process.env.REACT_APP_URL + '/components'
     );
     menu.data.composition.forEach((item) => {
       components.data.forEach((component) => {

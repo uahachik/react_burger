@@ -7,27 +7,27 @@ export default class BurgerMenu extends Component {
     this.state = {
       error: null,
       isLoading: true,
-      menu: []
+      menu: [],
     };
   }
 
   componentDidMount() {
-    fetch('https://react-json-server.herokuapp.com/menu')
-      .then(response => response.json())
-      .then(data =>
+    fetch(process.env.REACT_APP_URL + '/menu')
+      .then((response) => response.json())
+      .then((data) =>
         this.setState({
           menu: data,
-          isLoading: false
+          isLoading: false,
         })
       )
-      .catch(error => this.setState({ error, isLoading: false }));
+      .catch((error) => this.setState({ error, isLoading: false }));
   }
   render() {
     return (
       <div className="m-4">
         <h1>BULL BURGER MENU</h1>
 
-        {this.state.menu.map(item => (
+        {this.state.menu.map((item) => (
           <Burger key={item.id} menu={item} />
         ))}
 
