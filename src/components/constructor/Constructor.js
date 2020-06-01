@@ -15,7 +15,7 @@ export default class Constructor extends Component {
       src: '',
       composition: [],
       ingredients: [],
-      custom: []
+      custom: [],
     };
     this.burgerConstructor = this.burgerConstructor.bind(this);
   }
@@ -24,22 +24,22 @@ export default class Constructor extends Component {
     const { id } = this.props.match.params;
 
     const menu = await axios.get(
-      `https://react-json-server.herokuapp.com/menu/${id}`
+      `https://bull-burger-json-server.herokuapp.com/menu/${id}`
     );
     this.setState({
       name: menu.data.name,
       src: menu.data.src,
       composition: menu.data.composition,
-      isLoading: false
+      isLoading: false,
     });
     const components = await axios.get(
-      'https://react-json-server.herokuapp.com/components'
+      'https://bull-burger-json-server.herokuapp.com/components'
     );
-    menu.data.composition.forEach(item => {
-      components.data.forEach(component => {
+    menu.data.composition.forEach((item) => {
+      components.data.forEach((component) => {
         if (component.name === item) {
           this.setState({
-            ingredients: [...this.state.ingredients, component]
+            ingredients: [...this.state.ingredients, component],
           });
         }
       });
@@ -49,7 +49,7 @@ export default class Constructor extends Component {
   burgerConstructor(component) {
     const customComponent = () => {
       let res = [];
-      this.state.ingredients.forEach(ingredient => {
+      this.state.ingredients.forEach((ingredient) => {
         if (ingredient.name === component && res.length < 1) {
           res.push(ingredient);
         }
@@ -69,7 +69,7 @@ export default class Constructor extends Component {
 
     this.setState({
       custom: [...this.state.custom, ...customComponent()],
-      ingredients: restIngredients()
+      ingredients: restIngredients(),
     });
   }
 
